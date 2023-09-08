@@ -1,0 +1,67 @@
+body
+{
+	background-image: url('background_image.png');
+	font-family:Sans-serif;
+}
+table.zebra tr:nth-child(even)
+{
+	background-color: #90EE90;
+}
+table.zebra tr:nth-child(odd)
+{
+	background-color: #FFFEE0;
+}
+table.zebra
+{
+	width:100%
+}
+table.side
+{
+	float:left;
+	margin-left: 0%;
+	width: 30%;
+	height: 100%;
+	border: 5px solid black;
+}
+table.middle
+{
+	float:left;
+	margin-left:0%;
+	width: 40%;
+	height: 100%;
+}
+a:hover
+{
+	color: #FF4400;
+}
+h1,h3,h4,h5,h6
+{
+	text-align:center;
+}
+td
+{
+	vertical-align:top;
+}
+td.mid_side_cells
+{
+	width:40%;
+}
+td.mid_cell
+{
+	width:20%;
+	text-align:center;
+}
+tr.top_mid_row
+{
+	height:20%;
+	width:100%;
+}
+img.head_shot
+{
+	width:75%
+}
+span
+{
+	color:red;
+	font-weight:bold;
+}
