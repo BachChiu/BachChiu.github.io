@@ -1,4 +1,4 @@
-body
+html, body
 {
 	background-image: url('background_image.png');
 	font-family:Sans-serif;
@@ -15,12 +15,13 @@ table.zebra tr:nth-child(odd)
 }
 table.zebra
 {
-	width:100%
+	width:100%;
 }
 table.side
 {
 	float:left;
 	margin-left: 0%;
+	margin-bottom:0%;
 	width: 30%;
 	height: 100%;
 	border: 5px solid black;
@@ -66,4 +67,8 @@ span
 {
 	color:red;
 	font-weight:bold;
+}
+img
+{
+	border: 5px solid black;
 }
